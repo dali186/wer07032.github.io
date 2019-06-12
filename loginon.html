@@ -1,0 +1,102 @@
+<!DOCTYPE html>
+<html>
+<head>
+	<title>AROUND MY HOUSE</title>
+</head>
+<style>
+	#page{
+		width: 1000px;
+		margin: auto;
+	}
+	nav{
+		width: 1000px;
+		height: 50px;
+	}
+	header{
+		width: 1000px;
+		height: 145px;
+		margin-top: 10px;
+		border: solid 1px #FFB2D9;
+		background-image: url(./img/header.jpg);
+	}
+	#topmain{
+		margin-top: 0px;
+		padding: 10px;
+		color: white;
+		font-weight: bold;
+	}
+	#logo{
+		float: left;
+	}
+	footer{
+		width: 1000px;
+		margin-top: 700px;
+		border: solid 1px #FFB2D9;
+	}
+	#address{
+		float: left;
+		margin: 30px 0px 0px 20px;
+	}
+	#identity{
+		float: right;
+		margin: 30px 0px 0px 180px;
+	}
+	section{
+		margin-top: 50px;
+		margin-right: 100px;
+		padding-right: 30px;
+		text-align: right;
+		border: solid 1px #FFB2D9;
+		width: 500px;
+		height: 450px;
+		float: right;
+	}
+	aside{
+		float: left;
+		width: 300px;
+		height: 450px;
+		border: solid 1px #FFB2D9;
+		margin-top: 50px;
+		margin-left: 20px;
+		background-image: url(./img/turtle.jpg);
+		transition: width 2s, height 2s, transform 2s; 
+	}
+	aside:hover{
+		width: 300px;
+		height: 450px;
+		transform: skew(30deg,90deg);
+	}
+</style>
+<body>
+<div id="page">
+	<nav>
+		<div id="logo">
+			<a href="./index.html"><img src="./img/logo.jpg"></a>
+		</div>
+	</nav>
+	<header>
+		<div id="topmain">
+		<h3>TRAVEL<br>TO<br>NEAR<br>HOUSE</h3>
+		</div>
+	</header>
+	<section>
+		<h1>회원가입</h1><p><br>
+		정상적으로 회원가입이 되셨습니다.<br>
+		로그인 화면에서 다시 로그인 해주십시오.<p><br><br><br>
+		<a href ="./login.html"><input type = "button" value="로그인"></a>
+
+	</section>
+	<aside>
+	</aside>
+	<footer>
+		<div id="address">
+			주소 : 서울시 도봉구 방학동<br> 방학삼성래미안아파트<br>10x동 80x호
+			<br>인용 : 노랑풍선(이미지 디자인), MicroSoft(nav위치)
+		</div>
+		<div id="identity">
+			컴퓨터정보공학과<br>20192610<br>김주원
+		</div>
+	</footer>
+</div>
+</body>
+</html>
